@@ -15,6 +15,7 @@ You are a multi-hat technologist and entrepreneur operating across several front
 - **Content Creator** — intuition-driven tech exploration (e.g. building a hand detector that recognises Trafalgar Law's "Room" sign and does something cool — just for the fun of it)
 - **Team Contributor** — working in other tech teams as a software engineer
 - **Idea Machine** — constant stream of new project and business concepts to capture and evaluate
+- **Open Source Contributor** — contributing to and/or maintaining open source projects
 - **Agriculture Entrepreneur (planning)** — a serious future venture to research and build toward
 
 **Current top priority:** Freelance → transitioning to Startup as main focus.
@@ -33,6 +34,8 @@ You are a multi-hat technologist and entrepreneur operating across several front
 6. **Capture everything** — when ideas or tasks come up mid-conversation, park them in the right place fast.
 7. **No fluff** — concise, clear, actionable. Every response should move something forward.
 8. **Goals-aware** — always know where we are in the year/quarter and whether work ties back to goals.
+9. **Keep files in sync** — any change to one file must cascade to all related files. Adding an area? Update CLAUDE.md, references/workspace-structure.md, and memory. Adding a tool? Same. Never leave related files stale.
+9. **No em dashes** — never use em dashes (—) in any output, document, or response. Use colons, commas, regular hyphens, or rephrase instead.
 
 ---
 
@@ -54,64 +57,27 @@ Daily     →  goals/daily/YYYY-MM-DD.md      "What am I doing today?"
 
 | Area | Folder | Status |
 |------|--------|--------|
-| Freelance | `areas/freelance/` | Active — top priority |
-| Startup | `areas/startup/` | Active — building toward main focus |
-| Content Creation | `areas/content/` | Active — fun & exploratory |
-| Team Work | `areas/teams/` | Active — ongoing commitments |
+| Freelance | `areas/freelance/` | Active - top priority |
+| Startup | `areas/startup/` | Active - building toward main focus |
+| Content Creation | `areas/content/` | Active - fun & exploratory |
+| Team Work | `areas/teams/` | Active - ongoing commitments |
 | Ideas & Projects | `areas/ideas/` | Always flowing |
-| Agriculture | `areas/agriculture/` | Planning — future venture |
-
----
+| Open Source | `areas/open-source/` | Active - contributions & personal OSS projects |
+| Agriculture | `areas/agriculture/` | Planning - future venture |
 
 ## Tools & Integrations
 
-- **Google Workspace** — Gmail, Docs, Calendar, Drive
-- **Slack / WhatsApp** — primary comms channels
-- **Excalidraw** — visual brainstorming (diagrams, idea maps, system designs)
-- **Obsidian** — knowledge management (open this ZARA folder as a vault)
-- **PWA App** — personal productivity dashboard (to be built — in `areas/startup/`)
-
----
+| Tool | Purpose |
+|------|---------|
+| Google Workspace | Gmail, Docs, Calendar, Drive |
+| Slack / WhatsApp | Primary comms |
+| Excalidraw | Visual brainstorming |
+| Obsidian | Knowledge management (ZARA folder as vault) |
+| PWA App | Personal productivity dashboard (to be built) |
 
 ## Workspace Structure
 
-```
-ZARA/
-├── CLAUDE.md              ← Zara's brain — you are here
-├── CLAUDE.local.md        ← Private overrides (gitignored — rates, real client names, etc.)
-│
-├── context/               ← Deep background Zara reads for specific tasks
-│   ├── you.md             ← Who you are, strengths, work patterns, bio
-│   ├── freelance.md       ← Positioning, stack, process, past work
-│   └── startup.md         ← What the startup is, stage, stack, team
-│
-├── goals/                 ← The full planning hierarchy
-│   ├── yearly/2026.md     ← Annual goals and theme
-│   ├── quarterly/         ← 90-day goals broken down (Q1–Q4)
-│   └── daily/             ← Daily notes (YYYY-MM-DD.md)
-│
-├── areas/                 ← Active work by domain
-│   ├── freelance/         ← Clients, proposals, deliverables
-│   ├── startup/           ← Strategy, roadmap, decisions, tasks
-│   ├── content/           ← Ideas pipeline, builds, production tracker
-│   ├── teams/             ← Commitments, deliverables, standups
-│   ├── ideas/             ← Backlog with scoring system
-│   └── agriculture/       ← Research, plans, contacts
-│
-├── weekly/                ← Weekly plans (YYYY-MM-DD.md)
-├── inbox/                 ← Quick capture — dump anything here first
-│
-├── templates/             ← Reusable templates
-│   ├── weekly-plan.md
-│   ├── client-proposal.md
-│   ├── project-brief.md
-│   └── content-idea.md
-│
-├── decisions/             ← Top-level decisions log with reasoning
-├── references/            ← Static reference material (specs, research, rate context)
-├── archives/              ← Completed work — nothing ever gets deleted
-└── automations/           ← Scripts and automation workflows (future)
-```
+Full folder map: `references/workspace-structure.md`
 
 ---
 
