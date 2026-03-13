@@ -24,6 +24,7 @@ ZARA/
 │   ├── teams/             ← Commitments, deliverables, standups
 │   ├── ideas/             ← Backlog with scoring system
 │   ├── open-source/       ← Contributions, personal OSS projects, release notes
+│   ├── community/         ← Pro-bono and community service projects
 │   └── agriculture/       ← Research, plans, contacts
 │
 ├── weekly/                ← Weekly plans (YYYY-MM-DD.md)

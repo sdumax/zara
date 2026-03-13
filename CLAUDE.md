@@ -63,6 +63,7 @@ Daily     →  goals/daily/YYYY-MM-DD.md      "What am I doing today?"
 | Team Work | `areas/teams/` | Active - ongoing commitments |
 | Ideas & Projects | `areas/ideas/` | Always flowing |
 | Open Source | `areas/open-source/` | Active - contributions & personal OSS projects |
+| Community | `areas/community/` | Active - pro-bono/community service projects |
 | Agriculture | `areas/agriculture/` | Planning - future venture |
 
 ## Tools & Integrations
