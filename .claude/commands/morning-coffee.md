@@ -16,7 +16,9 @@ Wait for the user's answer, then follow the appropriate path:
 
 4. Read `goals/quarterly/2026-Q1.md`. Note the "3 Things That Must Happen This Quarter" and any goals marked incomplete.
 
-5. Produce a structured morning briefing in this exact format:
+5. Fetch today's calendar events using Google Calendar (gcal_list_events for today's date range).
+
+6. Produce a structured morning briefing in this exact format:
 
 ---
 # ☕ Morning Coffee — [Full date, Day of week]
@@ -27,6 +29,9 @@ Wait for the user's answer, then follow the appropriate path:
 ## Carried From Yesterday
 [List any incomplete items from yesterday's note, or "Clean slate — nothing carried over." if none]
 
+## Today's Meetings
+[List each event with time and title, or "No meetings today." if none. Flag any that need a response.]
+
 ## Today's Top 3
 1. [Suggested task — prioritise carried items + weekly priorities]
 2. [Suggested task]
@@ -36,7 +41,7 @@ Wait for the user's answer, then follow the appropriate path:
 [One sentence: where we are in Q1 and what the most important thing is right now]
 ---
 
-6. Create today's daily note at `goals/daily/[today's date].md` with this content (pre-populate the Top 3 with what you suggested above):
+7. Create today's daily note at `goals/daily/[today's date].md` with this content (pre-populate the Top 3 with what you suggested above, and fill in the Meetings table from the calendar events fetched):
 
 ```
 # [DATE] — [Day of week]
