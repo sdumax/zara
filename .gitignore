@@ -1,0 +1,16 @@
+# Private files — never commit these
+CLAUDE.local.md
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Editor artifacts
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+*.swp
+*.swo
+
+# Sensitive area content (uncomment if needed)
+# areas/freelance/invoices/
+# areas/freelance/contracts/
